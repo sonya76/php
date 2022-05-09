@@ -33,11 +33,22 @@ $b = 7;
 // echo round($a,3);
 $c = 'Hello ';
 $c .= ' world.';
-echo $c;
+// echo $c;
 
-/*
-Creer 2 variables prix ht et tva
-Afficher le calcul du prix prix ttc
+//Creer 2 variables prix ht et tva
+// Afficher le calcul du prix prix ttc
+$prixht = 34;
+$tva = 10;
+$prixttc = $prixht + ($tva * $prixht) / 100;
+echo '<h4>Prix HT en € : ' . $prixht . ' €</h4>';
+echo '<h4>TVA en % : ' . $tva . ' %</h4>';
+echo '<h4>Prix TTC en € : ' . $prixttc . ' €</h4>';
+
+
+
+// Calculer l'âge d'une personne en renseigant son année de naissance , utiliser la fonction date
+
+
 
 
 
