@@ -53,14 +53,48 @@ $txt = 'Bonjour';
 $fruit1 = 'Kiwi';
 $fruit1 = 'Pomme';
 $fruit2 = 'Banane';
+$fruit2 .= 'Poire';
 
-echo $fruit1 . '<br>' . $fruit2; 
+// echo $fruit1 . '<br>' . $fruit2; 
+// echo $fruit2 . '<br>';
+// echo $fruit1;
 
+$html = '';
+$html .= '<h1>';
+$html .= 'Cours de php';
+$html .= '</h1>';
+// $html .= '<h1>Cours de php</h1>';
+// $html .= '<h1>Cours de php</h1>';
+$html .= '<p>Ajout d\'un texte dans un paragraphe</p>';
 
-
-
-
-
-
-
+echo $html;
 ?>
+<h2>Texte en html dans une php</h2>
+
+<?php
+$titre = 'Texte de titre';
+?>
+<h4><?php echo $titre; ?></h4>
+<h4><?= $titre; ?></h4>
+
+<?php
+$data1 = 'Hello';
+$data2 = 'les terriens';
+$data3 = 'Mars';
+$data4 = 'planete';
+
+// Avec les 2 methodes de concatenation ecrire la phrase dans un paragraphe : Hello, les terriens.Je viens de la planete Mars.
+
+echo '<p>' . $data1 . ', ' . $data2 . '.Je viens de la ' . $data4 . ' ' . $data3 . '.</p>';
+?>
+<p><?php $data1 . ', ' . $data2 . '.Je viens de la ' . $data4 . ' ' . $data3 . '.'; ?></p>
+<p><?=$data1 . ', ' . $data2 . '.Je viens de la ' . $data4 . ' ' . $data3 . '.'; ?></p>
+
+<?php 
+$html = '';
+$html .= '<p>' .$data1 . ', ' . $data2;
+$html .= '.Je viens de la ' . $data4 . ' ' . $data3 . '.</p>';
+echo $html;
+
+
+
