@@ -40,19 +40,23 @@ $c .= ' world.';
 $prixht = 34;
 $tva = 10;
 $prixttc = $prixht + ($tva * $prixht) / 100;
-echo '<h4>Prix HT en € : ' . $prixht . ' €</h4>';
-echo '<h4>TVA en % : ' . $tva . ' %</h4>';
-echo '<h4>Prix TTC en € : ' . $prixttc . ' €</h4>';
-
-
+// echo '<h4>Prix HT en € : ' . $prixht . ' €</h4>';
+// echo '<h4>TVA en % : ' . $tva . ' %</h4>';
+// echo '<h4>Prix TTC en € : ' . $prixttc . ' €</h4>';
 
 // Calculer l'âge d'une personne en renseigant son année de naissance , utiliser la fonction date
+$anneeDeNaissance = 1990;
+$anneEnCours = date("Y");
+$age = $anneEnCours - $anneeDeNaissance;
+// echo 'Votre âge est de ' . $age . ' ans<br>';
+// echo "Votre âge est de $age ans";
 
+// incrementation /decrementation
+$i = 0;
+// $i += 1; //$i = $i + 1;
+$i++;
 
-
-
-
-
-
-
-
+$j = 10;
+// $j -= 1; // $j = $j - 1
+$j--;
+echo $j;
