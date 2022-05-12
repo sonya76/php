@@ -116,18 +116,46 @@ $ages['Lucie'] = 02; // modification d'une entree du tableau $age
 $notes = [
     'Karima' => 18,
     'Patrick' => 12,
-    'Loic' => 10
+    'Loic' => 10,
+    'Allah' => 15
 ];
-$html = '<ul>';
-foreach($notes as $key => $value)
-{
-    $html .= '<li>' . $key . ' a obtenu ' . $value . '/20</li>';
-}
-$html .= '</ul>';
-echo $html;
+// $html = '<ul>';
+// foreach($notes as $key => $value)
+// {
+//     $html .= '<li>' . $key . ' a obtenu ' . $value . '/20</li>';
+// }
+// $html .= '</ul>';
+// echo $html;
 
+// $tab4 = array_merge($ages,$notes);
 
+// print_r($tab4);
 
+$planetes = ['mars','terre','pluton','venus','jupiter'];
+// print_r($planetes);
+// print_r($notes);
+// echo '<hr>';
+// asort($planetes); // tri des valeurs d'un tableau par ordre croissant
+// asort($notes); 
+// rsort($notes); // tri tableau par ordre decroissant
+// ksort($notes); // tri tableau en fonction des clefs par ordre croissant
+// arsort($notes); // tri tableau en fonction des valeurs par ordre decroissant
+// krsort($notes); // tri en fonction des clefs par ordre decroissant
+
+// print_r($planetes);
+// print_r($notes);
+
+// Créer un tableau avec les mois de l'annnée
+// - afficher la valeur de la 5 ligne de ce tableau
+// - afficher la vleur de l'index 10
+// - modifier le mois d'avril en le mettant en majuscule
+
+// Créer un tableau associatif des departements de la region normandie
+// avec le nom du departement en valeur et son code postale en index
+// - afficher la valeur de l'index 27
+// - ajouter le departement et code postale de la ville de Brest
+// - parcourir le tableau des departements et afficher chaque departement dans un parapraphe p de la façon suivante :
+// Le 'nom du departement' possede le code postale suivant :  'code pastale'
 
 
 
@@ -153,5 +181,3 @@ echo $html;
 
 
 echo '</pre>';
-
-
