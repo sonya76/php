@@ -111,7 +111,7 @@ echo $html;
 
 // Creer un tableau $notes avec un prenom => une note
 // Afficher une liste ul des eleves et leur notes
-// Marc a obtenu 15/20
+// Marc a obtenu 15/20.
 
 
 
