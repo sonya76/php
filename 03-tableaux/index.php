@@ -101,17 +101,31 @@ $ages['Lucie'] = 02; // modification d'une entree du tableau $age
     // echo $clef . ' a ' . $valeur . ' ans<br>';
 // }
 
-$html = '<ul>';
-foreach($ages as $key => $value)
-{
-    $html .= '<li>' . $key . ' a ' . $value . ' ans</li>';    
-}
-$html .=  '</ul>';
-echo $html; 
+// $html = '<ul>';
+// foreach($ages as $key => $value)
+// {
+//     $html .= '<li>' . $key . ' a ' . $value . ' ans</li>';    
+// }
+// $html .=  '</ul>';
+// echo $html; 
 
 // Creer un tableau $notes avec un prenom => une note
 // Afficher une liste ul des eleves et leur notes
-// Marc a obtenu 15/20.
+// Marc a obtenu 15/20
+
+$notes = [
+    'Karima' => 18,
+    'Patrick' => 12,
+    'Loic' => 10
+];
+$html = '<ul>';
+foreach($notes as $key => $value)
+{
+    $html .= '<li>' . $key . ' a obtenu ' . $value . '/20</li>';
+}
+$html .= '</ul>';
+echo $html;
+
 
 
 
