@@ -146,8 +146,8 @@ $planetes = ['mars','terre','pluton','venus','jupiter'];
 // print_r($notes);
 
 // Créer un tableau avec les mois de l'annnée
-// - afficher la valeur de la 5 ligne de ce tableau
-// - afficher la vleur de l'index 10
+// - afficher la valeur de la 5eme ligne de ce tableau
+// - afficher la valeur de l'index 10
 // - modifier le mois d'avril en le mettant en majuscule
 
 // Créer un tableau associatif des departements de la region normandie
