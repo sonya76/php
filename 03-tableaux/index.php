@@ -201,7 +201,6 @@ $produits = [
 print_r($produits);
 // Boucler sur le tableau produits (foreach) en affichant le nom du produit et le prix selon le modele :
 //    'nom du produit' : 'prix' €
-// dans une liste ul , le 'nom du produit' dans un h3 et le prix dans un p
 echo '</pre>';
 ?>
 <!DOCTYPE html>
@@ -210,10 +209,20 @@ echo '</pre>';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tableau Produits</title>
 </head>
 <body>
  <h1>Produits</h1>
-
+<ul>
+    <li>
+        <h3>Velo</h3>
+        <p>500 €</p>
+    </li>
+         
+    <li>
+        <h3>Chaussettes</h3>
+        <p>10 €</p>
+    </li>
+</ul>
 </body>
 </html>
