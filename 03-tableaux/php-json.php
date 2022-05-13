@@ -26,9 +26,17 @@ echo '<pre>';
 // echo 'L\email de Lucie est : ' . $people[2]['email'];
 echo '<hr>';
 $json_file = json_encode($people);
-echo $json_file;
+// echo $json_file;
 
-
+$json_obj = '{
+    "nom" : "Durand",
+    "prenom": "Michel",
+    "email" : "dumi@gmail.com"
+}';
+print_r($json_obj);
+echo '<hr>';
+$json_array_php = json_decode($json_obj);
+print_r($json_array_php);
 
 
 
