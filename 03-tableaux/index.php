@@ -172,40 +172,48 @@ $planetes = ['mars','terre','pluton','venus','jupiter'];
 //     'planete' => ['mars','terre']
 // ];
 
-$tab = [];
-$tab[] = ['A','B','C'];
-$tab[] = ['Q','R','T'];
-$tab[] = ['E','U','P','I'];
-print_r($tab);
-echo '<hr>';
+// $tab = [];
+// $tab[] = ['A','B','C'];
+// $tab[] = ['Q','R','T'];
+// $tab[] = ['E','U','P','I'];
+// print_r($tab);
+// echo '<hr>';
 // echo $tab['planete'][0];
 // Ecrire le mot CEPPIC
 
-echo $tab[0][2].$tab[2][0].$tab[2][2].$tab[2][2].$tab[2][3].$tab[0][2];
+// echo $tab[0][2].$tab[2][0].$tab[2][2].$tab[2][2].$tab[2][3].$tab[0][2];
 
-$tab2 = [
-    [0,1],
-    [
-        2,
-        [2,3]
-    ]
-    ];
-// Afficher la valeur 3
+// $tab2 = [
+//     [0,1],
+//     [
+//         2,
+//         [2,3]
+//     ]
+//     ];
+// // echo $tab2[1][1][1];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+$produits = [
+    ['nom' => 'chausettes', 'prix' => 10],
+    ['nom' => 'velo', 'prix' => 500],
+    ['nom' => 'carotte', 'prix' => 2],
+    ['nom' => 'boulon', 'prix' => 9],
+];
+print_r($produits);
+// Boucler sur le tableau produits (foreach) en affichant le nom du produit et le prix selon le modele :
+//    'nom du produit' : 'prix' €
+// dans une liste ul , le 'nom du produit' dans un h3 et le prix dans un p
 echo '</pre>';
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <h1>Produits</h1>
+
+</body>
+</html>
