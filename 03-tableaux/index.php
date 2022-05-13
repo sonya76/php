@@ -155,18 +155,31 @@ $planetes = ['mars','terre','pluton','venus','jupiter'];
 // - afficher la valeur de l'index 27
 // - ajouter le departement et code postale de la ville de Brest
 // - parcourir le tableau des departements et afficher chaque departement dans un parapraphe p de la façon suivante :
-// Le 'nom du departement' possede le code postale suivant :  'code pastale'
+// 'nom du departement' possede le code postale suivant :  'code postale'
 
+// $mois = ['janvier','fevrier','mars','avril','mai','juin','juillet','août','septembre','octobre','novembre','decembre'];
+// echo 'La 5eme ligne de ce tableau est : ' . $mois[4] .'<br>' ;
+// echo 'La valeur de l\'index 10 est : ' . $mois[10] . '<br>';
+// echo '<hr>';
+// $mois[3] = 'AVRIL';
+// $mois[3] = strtoupper($mois[3]);
 
+// 
 
+// $tab = [
+//     'voiture' => 'ford',
+//     'nombre' => [1,2,3,4],
+//     'planete' => ['mars','terre']
+// ];
 
-
-
-
-
-
-
-
+$tab = [];
+$tab[] = ['A','B','C'];
+$tab[] = ['Q','R','T'];
+$tab[] = ['E','U','P','I'];
+print_r($tab);
+echo '<hr>';
+// echo $tab['planete'][0];
+// Ecrire le mot CEPPIC
 
 
 
