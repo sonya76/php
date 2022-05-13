@@ -10,3 +10,4 @@ Cloner ce depôt `git clone https://github.com/formeka/php (optionnel:non-du-dep
 - [Variables](./02-variables/index.php)
 - [Tableaux](./03-tableaux/index.php)
 
+texte A

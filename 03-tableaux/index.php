@@ -198,7 +198,7 @@ $produits = [
     ['nom' => 'carotte', 'prix' => 2],
     ['nom' => 'boulon', 'prix' => 9],
 ];
-print_r($produits);
+// print_r($produits);
 // Boucler sur le tableau produits (foreach) en affichant le nom du produit et le prix selon le modele :
 //    'nom du produit' : 'prix' €
 // echo $produits[0]['nom'];
@@ -215,15 +215,12 @@ echo '</pre>';
 <body>
  <h1>Produits</h1>
 <ul>
-    <li>
-        <h3>Velo</h3>
-        <p>500 €</p>
-    </li>
-         
-    <li>
-        <h3>Chaussettes</h3>
-        <p>10 €</p>
-    </li>
+    <?php foreach($produits as $produit) { ?>
+        <li>
+            <h3><?php echo $produit['nom']; ?></h3>
+            <p><?php echo $produit['prix']; ?> €</p>
+        </li>
+    <?php } ?>
 </ul>
 </body>
 </html>
