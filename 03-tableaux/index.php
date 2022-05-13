@@ -201,6 +201,7 @@ $produits = [
 print_r($produits);
 // Boucler sur le tableau produits (foreach) en affichant le nom du produit et le prix selon le modele :
 //    'nom du produit' : 'prix' €
+// echo $produits[0]['nom'];
 echo '</pre>';
 ?>
 <!DOCTYPE html>
