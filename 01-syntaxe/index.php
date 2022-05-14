@@ -24,7 +24,7 @@ $_3var = 34;
 
 $camelCase = 'une variable en camel case';
 $snake_case = 'une variable en snake case';
-$PascaleCase = 'une variable pascale case';
+$PascaleCase = 'une variable pascale case'; //StudlyCaps
 $var = 'une variable en kebab-case';
 
 // string
