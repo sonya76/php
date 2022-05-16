@@ -11,4 +11,5 @@
         </ul>
     </li>
     <li><a href="./04-conditions/">Conditions</a></li>
+    <li><a href="./05-boucles/index.php">Boucles</a></li>
 </ul>
