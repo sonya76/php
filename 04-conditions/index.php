@@ -119,7 +119,7 @@ $var2 = '';
 
 $articles = [];
 // Faire une condition sur ce tableau : tester l'article à l'index 0 si il est non vide , sinon afficher "il n'ya pas d'articles"
-// Créer une branche articles , que vous fusionnerez avec main lorsque l'exercice est finit
+// Créer une branche articles , que vous fusionnerez avec main lorsque l'exercice est finit.
 
 
 
