@@ -117,10 +117,14 @@ $var2 = '';
     // echo 'Test';
 // }
 
-$articles = [];
+$articles = [[1,2,3],'planete','foot'];
 // Faire une condition sur ce tableau : tester l'article à l'index 0 si il est non vide , sinon afficher "il n'ya pas d'articles"
 // Créer une branche articles , que vous fusionnerez avec main lorsque l'exercice est finit.
-
+if(!empty($articles[0])) {
+    var_dump($articles[0]);
+} else {
+    echo "Il n'y a pas d'articles !";
+}
 
 
 
