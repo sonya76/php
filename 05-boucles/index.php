@@ -24,21 +24,47 @@
 <body>
     <ul>
 <?php
-    $anne1 = 1970;
-    $anne2 = 2022;
-    $nbJour = 0;
-    while($anne1 <= $anne2){
+    // $anne1 = 1970;
+    // $anne2 = 2022;
+    // $nbJour = 0;
+    // while($anne1 <= $anne2){
 ?>
-    <li><?=$anne1;?></li>
+    <!-- <li><?=$anne1;?></li> -->
 <?php
-    $nbJour += 365;
-    $anne1++;
-    }
+    // $nbJour += 365;
+    // $anne1++;
+    // }
 ?>   
-<li>Le nombre de jour depuis 1970 est : <strong><?=$nbJour - 365;?></strong></li>
+<!-- <li>Le nombre de jour depuis 1970 est : <strong><?=$nbJour - 365;?></strong></li> -->
 </ul>
 </body>
 </html>
+
+<?php
+//==========
+// Do while
+//==========
+// $y = 0;
+// $k = 10;
+// do {
+//     echo "Nombre : $y<br>";
+//     $y++;
+//     $k--;
+// } while ($y >= 10);
+// echo '<br>';
+// echo $k;
+
+//=========
+// foreach
+//=========
+$tabs = [1,2,3,4,5,6];
+foreach($tabs as $tab) {
+    echo 'Nombre : ' . $tab . '<br>';
+}
+
+
+
+
 
 
 
