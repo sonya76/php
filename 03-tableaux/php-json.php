@@ -33,10 +33,10 @@ $json_obj = '{
     "prenom": "Michel",
     "email" : "dumi@gmail.com"
 }';
-print_r($json_obj);
-echo '<hr>';
-$json_array_php = json_decode($json_obj);
-print_r($json_array_php);
+// print_r($json_obj);
+// echo '<hr>';
+// $json_array_php = json_decode($json_obj);
+// print_r($json_array_php);
 
 // 
 
