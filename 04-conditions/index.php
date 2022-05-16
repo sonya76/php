@@ -40,10 +40,10 @@
 //     echo 'On est l\'apres midi';
 // }
 
-$a = 20;
-$b = 5;
-$c1 = 10;
-$c2 = '10';
+// $a = 20;
+// $b = 5;
+// $c1 = 10;
+// $c2 = '10';
 
 // if ($b != 3){
 //     echo 'La variable $b n\'est pas égale à 3';
@@ -104,8 +104,8 @@ $c2 = '10';
 //=============
 // empty/isset
 //=============
-$var1 = 45;
-$var2 = '';
+// $var1 = 45;
+// $var2 = '';
 // empty test si la valeur de la variable est vide : 0,'',null,false ou non definit
 // if (empty($var1)) {
 //     echo 'La variable est vide !';
@@ -120,7 +120,6 @@ $var2 = '';
 $articles = [];
 // Faire une condition sur ce tableau : tester l'article à l'index 0 si il est non vide , sinon afficher "il n'ya pas d'articles"
 // Créer une branche articles , que vous fusionnerez avec main lorsque l'exercice est finit.
-
 
 
 
