@@ -62,12 +62,12 @@ $c2 = '10';
 //     echo 'Test !==';
 // }
 
-$vrai = false;
-if($vrai) {
-    echo 'Vrai';
-} else {
-    echo 'Faux';
-}
+// $vrai = false;
+// if($vrai) {
+//     echo 'Vrai';
+// } else {
+//     echo 'Faux';
+// }
 
 //=============
 // switch/case
@@ -91,13 +91,13 @@ if($vrai) {
 //=======
 // Match
 //=======
-$food = 'cake';
+// $food = 'cake';
 
-$return_value = match ($food) {
-    'apple' => 'This food is an apple',
-    'bar' => 'This food is a bar',
-    'cake' => 'This food is a cake',
-};
+// $return_value = match ($food) {
+//     'apple' => 'This food is an apple',
+//     'bar' => 'This food is a bar',
+//     'cake' => 'This food is a cake',
+// };
 
 //    var_dump($return_value);
 
@@ -112,3 +112,15 @@ $var2 = '';
 // } else {
 //     var_dump(empty($var1));
 // }
+// isset test si la variable est defini et a une valeur non null
+// if(isset($var2)) {
+    // echo 'Test';
+// }
+
+$articles = [];
+// Faire une condition sur ce tableau : tester l'article à l'index 0 si il est non vide , sinon afficher "il n'ya pas d'articles"
+// Créer une branche articles , que vous fusionnerez avec main lorsque l'exercice est finit
+
+
+
+
