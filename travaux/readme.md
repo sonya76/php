@@ -1,7 +1,7 @@
 # Travaux
 
 - Réasliser chaque travail dans un fichier portant le nom (ecrit en minuscule) de l'enoncé du travail : `travail-00.php`
-- L'affichage des travaux se fera dans une structure en HTML
+
 
 ## Travail-00 :
 
@@ -29,7 +29,7 @@ etc ...
 | 25 | 77 |
 | 03 | 37.4 |
 | 35 | 95 |
-| 11.1 | 52 |
+| 11 | 51.8 |
 
 ```
 
@@ -37,7 +37,7 @@ etc ...
 
 - Travaller avec le fichier json `persons.json` dans le dossier `Travaux`
 - Afficher le(a) deuxieme ami(e) de Raymond Jimenez dans un titre html `<h3>`
-- Afficher la couleur des yeux de Ball Shaffer sous la forme d'une phrase : `Les yeux de Ball Shaffer sont de couleur :`
+- Afficher la couleur des yeux de Ball Shaffer en gras html `strong` sous la forme d'une phrase : `La couleur des yeux de Ball Shaffer est :`
 - Afficher dans une balise html `article` dans l'ordre suivant :
 	- image de la personne dans une balise html `img`
 	- Nom : le nom de la personne
@@ -51,3 +51,4 @@ etc ...
 	- Ne pas afficher la derniere la deniere virgule de tous les tags
 	- Chaque personne sera séparé d'une ligne horizontale html `<hr>` 
 
+Vous trouverez une capture du resultat attendu.
