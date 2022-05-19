@@ -6,7 +6,7 @@
 ## Travail-00 :
 
 - Créer un tableau php avec ses nombres : 27,15,34,379,248,5643,81,211,999,142,300,572
-- Tester les bombres de ce tableau pour savoir si chaque nombre est pair ou impair (un nombre est pair si le resultat de la division par 2 est 0)
+- Tester les nombres de ce tableau pour savoir si chaque nombre est pair ou impair (un nombre est pair si le resultat de la division par 2 est 0)
 - Afficher les résultats sous forme de liste html `ul` comme ceci (xx,yy sont des nombres) :
 
 ```
@@ -17,10 +17,8 @@ etc ...
 
 ## Travail-01 : 
 
-- Réaliser un script qui convertit 
-   - une température de degré Celsius °C en degré Fahrenheit °F 
-   - une température de degré Fahrenheit °F en Celsius °C 
-- Afficher les résultats dans un tableau html `table` , utiliser la fonction php `round` pour avoir une décimal apres la virgule
+- Réaliser un script qui convertit une température de degré Celsius °C en degré Fahrenheit °F 
+- Afficher les résultats dans un tableau html `table` , utiliser la fonction php `round` pour arrondir à l'unité supérieur
 - Voici le tableau de conversion que vous devez avoir :
 
 ```
