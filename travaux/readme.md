@@ -37,6 +37,7 @@ etc ...
 
 - Travaller avec le fichier json `persons.json` dans le dossier `Travaux`
 - Afficher le(a) deuxieme ami(e) de Raymond Jimenez dans un titre html `<h3>`
+- Afficher la couleur des yeux de Ball Shaffer sous la forme d'une phrase : `Les yeux de Ball Shaffer sont de couleur :`
 - Afficher dans une balise html `article` dans l'ordre suivant :
 	- image de la personne dans une balise html `img`
 	- Nom : le nom de la personne
