@@ -1,6 +1,6 @@
 # Php
 
-[Documentation officiel de php](https://www.php.net/manual/fr/)
+[Documentation officiel de php : https://www.php.net/manual/fr/](https://www.php.net/manual/fr/)
 
 Afin de récupérer ce depôt(repository) , se rendre dans une console(git bash ou console de vscode) : `cd /c/xampp/htdocs`.
 
