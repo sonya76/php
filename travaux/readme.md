@@ -1,12 +1,13 @@
 # Travaux
 
-- Réasliser chaque travail dans un fichier portant le nom (ecrit en minuscule) de l'enoncé du travail : `travail-00.php`
+- Réasliser chaque travail dans un fichier portant le nom (écrit en minuscule) de l'énoncé du travail : `travail-00.php`
+- Travaller dans une branche git que vous nommerez `travaux` , vous devrez faire des commits fréquements (atomiques) , mettez cette branche `travaux` en ligne (`push`) : `git push origin travaux`
 
 
 ## Travail-00 :
 
-- Créer un tableau php avec ses nombres : 27,15,34,379,248,5643,81,211,999,142,300,572
-- Tester les nombres de ce tableau pour savoir si chaque nombre est pair ou impair (un nombre est pair si le resultat de la division par 2 est 0)
+- Créer un tableau php avec ces nombres : 27,15,34,379,248,5643,81,211,999,142,300,572
+- Tester les nombres de ce tableau pour savoir si chaque nombre est pair ou impair (un nombre est pair si le reste de la division par 2 est 0)
 - Afficher les résultats sous forme de liste html `ul` comme ceci (xx,yy sont des nombres) :
 
 ```
